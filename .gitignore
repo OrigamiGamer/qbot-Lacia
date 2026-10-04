@@ -1,3 +1,5 @@
 apikey.json
 mc-server.json
 user-database.json
+.venv
+__pycache__
