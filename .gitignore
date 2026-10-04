@@ -3,3 +3,4 @@ mc-server.json
 user-database.json
 .venv
 __pycache__
+*.log

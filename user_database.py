@@ -31,7 +31,7 @@ def set_user_name(uid: str, name: str) -> bool:
 def register_user(uid: str, name: str = "unknown"):
     json_user_database[uid] = dict[str, str]()
     json_user_database[uid]["name"] = name
-    json_user_database[uid]["level"] = "user"
+    json_user_database[uid]["permission_level"] = "user"
     __save_user_database()
 
 

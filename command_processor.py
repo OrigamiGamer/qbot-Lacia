@@ -27,7 +27,7 @@ def process_command(uid: str, full_command: str) -> str:
                     + user_database.get_user_info(uid, "name")
                     + "\n"
                 )
-                info += "权限等级: " + user_database.get_user_info(uid, "level")
+                info += "权限等级: " + user_database.get_user_info(uid, "permission_level")
                 return info
             return ""
         # 设置
