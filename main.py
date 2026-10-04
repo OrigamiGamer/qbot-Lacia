@@ -1,7 +1,4 @@
 import asyncio
-import io
-import os
-from typing import Any
 
 import botpy
 from botpy import logging
